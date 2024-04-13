@@ -1,0 +1,22 @@
+body {
+    background-color: lightpink;
+}
+
+div {
+    color: black
+}
+
+h1 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: black;
+    border: 1px solid black
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+ul {
+    color: black
+}
