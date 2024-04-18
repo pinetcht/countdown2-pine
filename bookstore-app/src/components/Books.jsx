@@ -19,7 +19,7 @@ export const Books = ({ data }) => {
             <h1>Book Store</h1>
 
             <div>
-                {setFiction ? (
+                {fiction ? (
                     <button onClick={() => setFiction(!setFiction)}>Show fiction</button>
                 ) : 
                 <button onClick={() => setFiction(!setFiction)}>Hide fiction</button>
@@ -27,7 +27,7 @@ export const Books = ({ data }) => {
             </div>
 
             <div>
-                {setNonFiction ? (
+                {nonFiction ? (
                     <button onClick={() => setNonFiction(!setNonFiction)}>Show nonFiction</button>
                 ) : 
                 <button onClick={() => setNonFiction(!setNonFiction)}>Hide nonFiction</button>
@@ -35,7 +35,7 @@ export const Books = ({ data }) => {
             </div>
 
             <div>
-                {setChildren ? (
+                {children ? (
                     <button onClick={() => setChildren(!setChildren)}>Show children</button>
                 ) : 
                 <button onClick={() => setChildren(!setChildren)}>Hide children</button>

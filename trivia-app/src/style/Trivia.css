@@ -1,0 +1,11 @@
+.correctClicked {
+    background-color: rgba(0, 128, 0, 0.402);
+}
+
+.incorrectClicked {
+    background-color: rgba(255, 0, 0, 0.466);
+}
+
+.unclicked {
+    background-color: wheat
+}
